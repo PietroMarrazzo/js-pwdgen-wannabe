@@ -1,11 +1,11 @@
 // alert
-alert("Ciao! Inserisci le tue generali nei forms sottostanti");
+alert("Ciao! Inserisci le tue generali nei seguenti forms");
 
 // nome
-var nome = prompt(Nome);
+var nome=prompt("Inserisci il tuo nome");
 // cognome
-var cognome = prompt(Cognome);
+var cognome=prompt("Inserisci il tuo cognome");
 // colore
-var colore = prompt(Colore);
+var colore=prompt("Inserisci il tuo colore preferito");
 // visualizzazione
-document.getElementById("generali").innerHTML="nome" +" " + "cognome" + " " + "19";
+document.getElementById("generali").innerHTML= nome + " " + cognome + " " + colore + " " + 19;
